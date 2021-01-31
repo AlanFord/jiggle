@@ -12,4 +12,6 @@
 #include "../usb_rawhid/usb_api.cpp"
 #elif defined(USB_FLIGHTSIM)
 #include "../usb_flightsim/usb_api.cpp"
+#elif defined(USB_MOUSE_HID)
+#include "../usb_mouse_hid/usb_api.cpp"
 #endif

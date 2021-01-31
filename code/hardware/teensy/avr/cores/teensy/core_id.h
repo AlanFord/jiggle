@@ -14,5 +14,7 @@
 #include "../usb_rawhid/core_id.h"
 #elif defined(USB_FLIGHTSIM)
 #include "../usb_flightsim/core_id.h"
+#elif defined(USB_MOUSE_HID)
+#include "../usb_mouse_hid/core_id.h"
 #endif
 #endif
